@@ -1,8 +1,0 @@
-wrz 02, 2018 2:07:57 PM training.core.Logging.JavaLogger <init>
-INFO: I'm created
-wrz 02, 2018 2:07:57 PM training.core.Logging.JavaLogger writeDownInfo
-INFO: Informacja.
-wrz 02, 2018 2:07:57 PM training.core.Logging.JavaLogger writeDownSevere
-SEVERE: Severe.
-wrz 02, 2018 2:07:57 PM training.core.Logging.JavaLogger writeDownWarning
-WARNING: Warning

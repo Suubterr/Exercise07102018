@@ -42,7 +42,7 @@ public class cezarCypher {
         String code = "";
         for (Object i : ls) {
             char z = (char)(((int)i)-k);
-            code+=z;
+            code += z;
         }
         System.out.println(code);
         return code;

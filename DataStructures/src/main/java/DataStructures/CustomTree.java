@@ -6,14 +6,14 @@ import java.util.List;
 public class CustomTree<T> {
     private List<CustomTree<T>> children = new ArrayList<CustomTree<T>>();
     private CustomTree<T> parent = null;
-    private T data = null;
+    private T treasure = null;
 
-    public CustomTree(T data) {
-        this.data = data;
+    public CustomTree(T treasure) {
+        this.treasure = treasure;
     }
 
-    public CustomTree(T data, CustomTree<T> parent) {
-        this.data = data;
+    public CustomTree(T treasure, CustomTree<T> parent) {
+        this.treasure = treasure;
         this.parent = parent;
     }
 
@@ -37,12 +37,12 @@ public class CustomTree<T> {
         this.children.add(child);
     }
 
-    public T getData() {
-        return this.data;
+    public T getTreasure() {
+        return this.treasure;
     }
 
-    public void setData(T data) {
-        this.data = data;
+    public void setTreasure(T treasure) {
+        this.treasure = treasure;
     }
 
     public boolean isRoot() {
@@ -50,10 +50,11 @@ public class CustomTree<T> {
     }
 
     public boolean isLeaf() {
-        return this.children.size == 0;
+        return this.children.isEmpty();
     }
 
     public void removeParent() {
         this.parent = null;
     }
+
 }

@@ -1,0 +1,14 @@
+Pobranie informacji z API i zapisanie ich do bazy:
+
+Klasy:
+1. Połączenie z API. (Connection)
+2. URL do pobrania danych. ()
+    - kursy średnie walut
+    - kurs złota
+4. Parsowanie do JSONa
+3. Połaczenie z bazą.
+4. Zapisanie informacji do bazy.
+5. main
+    - wywołuje połączenie api i przekazuje url
+    - zwrócony przez api string do JSONa
+    - połączenie z bazą i insert danych
